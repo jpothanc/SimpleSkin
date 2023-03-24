@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSkin", "SimpleSkin\SimpleSkin.csproj", "{027C479C-AE7C-47A2-B112-B8DF2CC050B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSkinWinFormsTest", "SimpleSkinWinFormsTest\SimpleSkinWinFormsTest.csproj", "{52ED5F98-04CA-4877-AB19-647A1EB0F96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{027C479C-AE7C-47A2-B112-B8DF2CC050B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027C479C-AE7C-47A2-B112-B8DF2CC050B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027C479C-AE7C-47A2-B112-B8DF2CC050B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027C479C-AE7C-47A2-B112-B8DF2CC050B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52ED5F98-04CA-4877-AB19-647A1EB0F96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ED5F98-04CA-4877-AB19-647A1EB0F96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ED5F98-04CA-4877-AB19-647A1EB0F96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ED5F98-04CA-4877-AB19-647A1EB0F96C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CACFD91C-10E6-44EE-859A-144806A4DF4A}
+	EndGlobalSection
+EndGlobal
