@@ -12,8 +12,8 @@ To use SimpleSkin, simply add the SimpleSkin.dll library to your project referen
 To apply a skin to your Windows Forms application:
 
 Create an instance of the SimpleSkin class and pass in the path to your application's .exe file.
-csharp
-Copy code
+
+```cs
  private void MainForm_Load(object sender, EventArgs e)
 {
     ApplySkin();
@@ -23,12 +23,13 @@ private void ApplySkin()
     var simpleSkin = SimpleSkin.SimpleSkin.Create(x =>
     {
         x.Skin = Skin.Dark;
-        //Provide control name seperated by comma for exclusion
+        //Provide control names seperated by comma for exclusion
         x.ControlExcludes = "ComboBox";
     });
 
     simpleSkin.ApplyAll(this);
 }
+```
 
 That's it! Your application should now have a new look and feel based on the selected skin.
 
