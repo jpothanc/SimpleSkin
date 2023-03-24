@@ -6,7 +6,7 @@ Requirements
 .NET Framework 4.7.1 or higher
 Windows Forms application
 
-`<u>Getting Started</u>`
+Getting Started
 
 To use SimpleSkin, simply install SimpleSkin from NuGet
 <https://www.nuget.org/packages/SimpleSkin/3.1.0>
