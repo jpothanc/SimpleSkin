@@ -15,7 +15,7 @@ To apply a skin to your Windows Forms application:
 Create an instance of the SimpleSkin class and pass in the path to your application's .exe file.
 
 ```cs
- private void MainForm_Load(object sender, EventArgs e)
+private void MainForm_Load(object sender, EventArgs e)
 {
     ApplySkin();
 }
