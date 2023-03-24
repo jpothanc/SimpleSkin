@@ -1,6 +1,6 @@
 ﻿namespace SimpleSkin
 {
-    public enum Theme
+    public enum Skin
     {
         None,
         Light,

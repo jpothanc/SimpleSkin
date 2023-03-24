@@ -2,13 +2,13 @@
 
 namespace SimpleSkin
 {
-    public class SimpleControlColor
+    partial class ControlColor
     {
         public Color ForeColor { get; }
         public Color BackColor { get; }
         public Font Font { get; }
 
-        public SimpleControlColor(Color backColor, Color foreColor,  Font font = null)
+        public ControlColor(Color backColor, Color foreColor,  Font font = null)
         {
             BackColor = backColor;
             ForeColor = foreColor;
