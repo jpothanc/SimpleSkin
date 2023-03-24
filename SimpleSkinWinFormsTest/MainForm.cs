@@ -16,12 +16,12 @@ namespace SimpleSkinWinFormsTest
         {
             ApplySkin();
         }
-
         private void ApplySkin()
         {
             var simpleSkin = SimpleSkin.SimpleSkin.Create(x =>
             {
                 x.Skin = Skin.Dark;
+                //Provide control name seperated by comma for exclusion
                 x.ControlExcludes = "ComboBox";
             });
 

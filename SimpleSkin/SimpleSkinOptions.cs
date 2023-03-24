@@ -4,6 +4,5 @@
     {
         public Skin Skin { get; set; }
         public string ControlExcludes { get; set; }
-
     }
 }

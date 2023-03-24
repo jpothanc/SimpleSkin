@@ -5,13 +5,12 @@ using System.Windows.Forms;
 
 namespace SimpleSkin
 {
-
     public class SimpleSkin 
     {
-        Dictionary<Skin, IControls> _skinControls = new Dictionary<Skin, IControls>();
-        Skin _currentSkin = Skin.None;
-        IControls _currentControlSkin = null;
-        HashSet<string> _controlExcludes;
+        private readonly Dictionary<Skin, IControls> _skinControls = new Dictionary<Skin, IControls>();
+        private Skin _currentSkin = Skin.None;
+        private IControls _currentControlSkin;
+        private HashSet<string> _controlExcludes;
 
         private SimpleSkin(SimpleSkinOptions options)
         {
@@ -29,11 +28,11 @@ namespace SimpleSkin
         {
             IControls darkSkinControls = new Controls(Skin.Dark);
             ControlColor defaultControl = new ControlColor(Color.FromArgb(55, 55, 55), Color.WhiteSmoke);
+
             darkSkinControls.AddControl("default", defaultControl);
             darkSkinControls.AddControl("Button", new ControlColor(Color.FromArgb(0, 128, 255), Color.White));
             darkSkinControls.AddControl("TextBox", new ControlColor(Color.WhiteSmoke, Color.Black));
             _skinControls.Add(Skin.Dark, darkSkinControls);
-
             _currentControlSkin = darkSkinControls;
         }
         public void Apply(Control c)
@@ -64,7 +63,6 @@ namespace SimpleSkin
 
             foreach (Control control in parentControl.Controls)
             {
-                Apply(control);
                 ApplyAll(control);
             }
         }

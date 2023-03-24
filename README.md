@@ -7,7 +7,8 @@ Requirements
 Windows Forms application
 
 Getting Started
-To use SimpleSkin, simply add the SimpleSkin.dll library to your project references.
+To use SimpleSkin, simply install SimpleSkin from NuGet
+<https://www.nuget.org/packages/SimpleSkin/3.1.0>
 
 To apply a skin to your Windows Forms application:
 
