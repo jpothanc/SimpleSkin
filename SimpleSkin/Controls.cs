@@ -4,12 +4,11 @@ namespace SimpleSkin
 {
     partial class Controls : IControls
     {
-        Dictionary<string,ControlColor> _controls = new Dictionary<string,ControlColor>();
-
-        Skin _theme = Skin.None;
+        private Dictionary<string, ControlColor> _controls = new Dictionary<string, ControlColor>();
+        private Skin _skin = Skin.None;
         public Controls(Skin theme)
         {
-            _theme = theme;
+            _skin = theme;
         }
         public void AddControl(string controlName, ControlColor simpleControlColor)
         {
@@ -18,7 +17,6 @@ namespace SimpleSkin
                 _controls.Add(controlName, simpleControlColor);
             }
         }
-
         public ControlColor GetControl(string controlName)
         {
             _controls.TryGetValue(controlName, out ControlColor simpleControlColor);
@@ -27,7 +25,7 @@ namespace SimpleSkin
 
         public Skin GetTheme()
         {
-            return _theme;
+            return _skin;
         }
     }
 }

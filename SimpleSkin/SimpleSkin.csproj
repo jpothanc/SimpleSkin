@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ISimpleSkin.cs" />
     <Compile Include="IControls.cs" />
     <Compile Include="ControlColor.cs" />
     <Compile Include="SimpleSkin.cs" />
