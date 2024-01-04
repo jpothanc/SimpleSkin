@@ -47,4 +47,4 @@ If you encounter any issues while using SimpleSkin, or if you have any suggestio
 
 Thank you for using SimpleSkin!
 
-Regenerate response
+
